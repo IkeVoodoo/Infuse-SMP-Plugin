@@ -147,8 +147,8 @@ items:
 
     # The description of the item, supports colors!
     lore:
-      - a
-      - b
+      - §7Upgrade one of your positive effects!
+      - §6Right-Click §7to use!
 
     # The item type, don't worry as only the spark will have the custom effect and
     # other items of this type won't
@@ -187,7 +187,7 @@ items:
     # The description of the item, supports colors!
     lore:
       - §7Removes negative effects and gives positive effects.
-      - §7Right-Click to use.
+      - §6Right-Click §7to use.
 
     # The item type, don't worry as only the good potion will have the custom effect and
     # other items of this type won't
