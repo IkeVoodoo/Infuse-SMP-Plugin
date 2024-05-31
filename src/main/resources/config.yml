@@ -1,0 +1,235 @@
+effects:
+
+  # Prints warnings if you set a negative effect as positive or vice versa.
+  printWarnings: true
+
+  positive:
+    speed:
+
+      # Use -1 for infinity
+      # Optional
+      duration: -1
+
+      # Effect level, range goes from 1 to 2,147,483,647
+      # Required
+      effectLevel: 1
+
+      # I don't know honestly
+      # Optional
+      ambient: true
+
+      # Show particles?
+      # Optional
+      particles: true
+
+      # Show the effect icon in the top right and inventory?
+      # Optional
+      icon: true
+
+    # Truncating for brevity
+    haste:
+
+      # Effect level, range goes from 1 to 2,147,483,647
+      # Required
+      effectLevel: 1
+
+    strength:
+
+      # Effect level, range goes from 1 to 2,147,483,647
+      # Required
+      effectLevel: 1
+
+    luck:
+
+      # Effect level, range goes from 1 to 2,147,483,647
+      # Required
+      effectLevel: 1
+
+    fire_resistance:
+
+      # Effect level, range goes from 1 to 2,147,483,647
+      # Required
+      effectLevel: 1
+
+    health_boost:
+
+      # Effect level, range goes from 1 to 2,147,483,647
+      # Required
+      effectLevel: 1
+
+    water_breathing:
+
+      # Effect level, range goes from 1 to 2,147,483,647
+      # Required
+      effectLevel: 1
+
+    dolphins_grace:
+
+      # Effect level, range goes from 1 to 2,147,483,647
+      # Required
+      effectLevel: 1
+
+  negative:
+    slowness:
+
+      # Use -1 for infinity
+      # Optional
+      duration: -1
+
+      # Effect level, range goes from 1 to 2,147,483,647
+      # Required
+      effectLevel: 1
+
+      # I don't know honestly
+      # Optional
+      ambient: true
+
+      # Show particles?
+      # Optional
+      particles: true
+
+      # Show the effect icon in the top right and inventory?
+      # Optional
+      icon: true
+
+    # Truncating for brevity
+    glowing:
+
+      # Effect level, range goes from 1 to 2,147,483,647
+      # Required
+      effectLevel: 1
+
+    bad_luck:
+
+      # Effect level, range goes from 1 to 2,147,483,647
+      # Required
+      effectLevel: 1
+
+    hunger:
+
+      # Effect level, range goes from 1 to 2,147,483,647
+      # Required
+      effectLevel: 1
+
+    weakness:
+
+      # Effect level, range goes from 1 to 2,147,483,647
+      # Required
+      effectLevel: 1
+
+    jump_boost:
+
+      # Effect level, range goes from 1 to 2,147,483,647
+      # Required
+      effectLevel: 1
+
+    slow_falling:
+
+      # Effect level, range goes from 1 to 2,147,483,647
+      # Required
+      effectLevel: 1
+
+    mining_fatigue:
+
+      # Effect level, range goes from 1 to 2,147,483,647
+      # Required
+      effectLevel: 1
+
+
+items:
+  spark:
+
+    # Can the item be used?
+    itemEnabled: true
+
+    # Custom display name, supports colors!
+    name: Spark
+
+    # The description of the item, supports colors!
+    lore:
+      - a
+      - b
+
+    # The item type, don't worry as only the spark will have the custom effect and
+    # other items of this type won't
+    type: NETHER_STAR
+
+    # Number for resource-packs
+    customModelData: 1
+    recipe:
+
+      # Can players craft the spark?
+      recipeEnabled: true
+
+      # You can use either "shaped" or "shapeless"
+      # Shaped means the recipe has a certain shape, and you need to define the slots for the items
+      # Shapeless means that it only requires certain ingredients in the crafting table.
+      type: shaped
+      items:
+        1: redstone_block
+        2: diamond
+        3: redstone_block
+        4: diamond
+        5: golden_apple
+        6: diamond
+        7: redstone_block
+        8: diamond
+        9: redstone_block
+
+  goodPotion:
+
+    # Can the item be used?
+    itemEnabled: true
+
+    # Custom display name, supports colors!
+    name: §6Good Potion
+
+    # The description of the item, supports colors!
+    lore:
+      - §7Removes negative effects and gives positive effects.
+      - §7Right-Click to use.
+
+    # The item type, don't worry as only the good potion will have the custom effect and
+    # other items of this type won't
+    type: glass_bottle
+
+    # Number for resource-packs
+    customModelData: 1
+    recipe:
+
+      # Can players craft a good potion?
+      recipeEnabled: true
+
+      # You can use either "shaped" or "shapeless"
+      # Shaped means the recipe has a certain shape, and you need to define the slots for the items
+      # Shapeless means that it only requires certain ingredients in the crafting table.
+      type: shaped
+      items:
+        1: totem_of_undying
+        2: diamond_block
+        3: totem_of_undying
+        4: glass_bottle
+        5: netherite_ingot
+        6: glass_bottle
+        7: totem_of_undying
+        8: diamond
+        9: totem_of_undying
+
+general:
+
+  # For how many seconds should effect boosts last? For example the "spark" item gives an effect boost.
+  # You can also use decimal, such as 0.5
+  effectBoostSeconds: 10
+
+  # Should the plugin prevent people from brewing potions
+  # or should it give a sassy response when they try to brew said potions?
+  useSass: false
+
+commands:
+  drain:
+
+    # Should players be able to choose what effect they want to drain?
+    allowPickingEffects: false
+
+    # Should the drain command give negative effects if you have no positives, or should it not let the player drain?
+    drainIntoNegatives: true

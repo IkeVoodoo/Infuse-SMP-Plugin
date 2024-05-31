@@ -1,0 +1,63 @@
+colors:
+  positiveEffect: "§e"
+  negativeEffect: "§e"
+
+combat:
+  receiveEffect: "§aYou received {{effect}}"
+  loseEffect: "§aYou lost {{effect}}"
+
+spark:
+  upgrade:
+    successful: "§aYou have upgraded {{effect}} §ato level {{level}}!"
+    prompt: "§aUpgrade {{effect}}"
+    none: "§4NO EFFECT"
+    alreadyUpgraded: "§cAlready upgraded {{effect}}§c!"
+  navigation:
+    format: "§fPage {{page}} / {{totalPages}}"
+    left: "§7Press §6LEFT CLICK §7to go to the previous page."
+    right: "§7Press §6RIGHT CLICK §7to go to the next page."
+
+goodPotion:
+  success: "§aRemoved negative effect {{effect}}§a!"
+  failure: "§cYou do not have any negative effects!"
+
+effectBonusEnded: "§cThe upgrade you made to {{effect}}§c has ran out, it is now level {{level}}!"
+
+drain:
+  drainedTooMany: "§cYou have too many negative effects to be able to drain a new one!"
+  noNegativeEffects: "§cYou have no positive effects to drain!"
+  negativeAdded: "§cYou were given {{effect}}§c as you do not have any positive effects!"
+  success: "§aYou drained {{effect}}§a!"
+  potionName: "§aObtain {{effect}}"
+
+potionNames:
+  speed: "Speed"
+  slowness: "Slowness"
+  haste: "Haste"
+  mining_fatigue: "Mining Fatigue"
+  strength: "Strength"
+  instant_health: "Instant Health"
+  instant_damage: "Instant Damage"
+  jump_boost: "Jump Boost"
+  nausea: "Nausea"
+  regeneration: "Regeneration"
+  resistance: "Resistance"
+  fire_resistance: "Fire Resistance"
+  water_breathing: "Water Breathing"
+  invisibility: "Invisibility"
+  blindness: "Blindness"
+  night_vision: "Night Vision"
+  hunger: "Hunger"
+  weakness: "Weakness"
+  health_boost: "Health Boost"
+  absorption: "Absorption"
+  saturation: "Saturation"
+  glowing: "Glowing"
+  levitation: "Levitation"
+  luck: "Luck"
+  bad_luck: "Bad Luck"
+  slow_falling: "Slow Falling"
+  conduit_power: "Conduit Power"
+  dolphins_grace: "Dolphin's Grace"
+  bad_omen: "Bad Omen"
+  hero_of_the_village: "Hero of the Village"

@@ -1,0 +1,63 @@
+colors:
+  positiveEffect: "§e"
+  negativeEffect: "§e"
+
+combat:
+  receiveEffect: "§aSei ora sotto l'effetto di {{effect}}"
+  loseEffect: "§aHai perso l'effetto di {{effect}}"
+
+spark:
+  upgrade:
+    successful: "§aHai migliorato l'effetto di {{effect}} §aal livello {{level}}!"
+    prompt: "§aMigliora {{effect}}"
+    none: "§4VUOTO"
+    alreadyUpgraded: "§cHai già migliorato l'effeto di {{effect}}§c!"
+  navigation:
+    format: "§fPagina {{page}} di {{totalPages}}"
+    left: "§7Premi il §6MOUSE SINISTRO §7per andare in dietro di una pagina."
+    right: "§7Premi il §6MOUSE DESTRO §7per andare in avanti di una pagina."
+
+goodPotion:
+  success: "§aRimosso l'effetto negativo di {{effect}}§a!"
+  failure: "§cNon hai effetti negativi!"
+
+effectBonusEnded: "§cIl tuo miglioramento all'effetto di {{effect}}§c è terminata, adesso è di livello {{level}}!"
+
+drain:
+  drainedTooMany: "§cHai troppi effetti negativi e quindi non puoi prelevare un'altro effetto positivo!"
+  noNegativeEffects: "§cNon hai effetti positivi da prelevare!"
+  negativeAdded: "§cHai ricevuto l'effetto di {{effect}}§c dato che non hai nessun effetto positivo da rimuovere!"
+  success: "§aHai prelevato l'effetto di {{effect}}§a!"
+  potionName: "§aOttieni l'effetto di {{effect}}"
+
+potionNames:
+  speed: "Velocità"
+  slowness: "Lentezza"
+  haste: "Sollecitudine"
+  mining_fatigue: "Affaticamento"
+  strength: "Forza"
+  instant_health: "Salute Instantanea"
+  instant_damage: "Danno Instantaneo"
+  jump_boost: "Salto Amplificato"
+  nausea: "Nausea"
+  regeneration: "Rigenerazione"
+  resistance: "Resistenza"
+  fire_resistance: "Resistenza al Fuoco"
+  water_breathing: "Resipirazione Acquatica"
+  invisibility: "Invisibilità"
+  blindness: "Acciecamento"
+  night_vision: "Visione Notturna"
+  hunger: "Fame"
+  weakness: "Debolezza"
+  health_boost: "Salute Amplificata"
+  absorption: "Assorbimento"
+  saturation: "Saturazione"
+  glowing: "Luminescenza"
+  levitation: "Levitazione"
+  luck: "Fortuna"
+  bad_luck: "Brutta Fortuna"
+  slow_falling: "Caduta Lenta"
+  conduit_power: "Energia Condotta"
+  dolphins_grace: "Grazia del Delfino"
+  bad_omen: "Malaugurio"
+  hero_of_the_village: "Eroe del Villaggio"

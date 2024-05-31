@@ -1,0 +1,17 @@
+name: Infuse-Smp
+version: '${project.version}'
+main: me.ikevoodoo.infusesmp.InfuseSmp
+api-version: 1.17
+authors: [ IkeVoodoo ]
+description: The infuse smp plugin!
+
+commands:
+  edit-effects:
+    description: "Edit a player's effects!"
+    permission: infuse.edit
+  reload-infuse:
+    description: Reload the InfuseSMP plugin
+    permission: infuse.reload
+  drain:
+    description: Drain an effect!
+    permission: infuse.drain
